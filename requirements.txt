@@ -1,0 +1,11 @@
+
+networkx==2.5.1
+numpy==1.19.5
+osmnx==1.0.1 
+matplotlib==3.3.3
+scikit-learn==0.24
+jsons==1.4.2
+python==3.6.11
+
+
+
