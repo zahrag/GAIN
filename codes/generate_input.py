@@ -66,6 +66,9 @@ def run_dfs_walks(G, nodes, dfs_len=None, num_walks=None):
                 curr_node = next_node
                 next_node = random.choice(depth_2_neighbors)
 
+        if curr_node != node:  # and (node, curr_node) not in dfs_pairs:
+                dfs_pairs.append((node, curr_node))
+
         if count % 1000 == 0:
             print("Done DFS walks for", count, "nodes")
 
