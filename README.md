@@ -6,7 +6,7 @@
  
 This repository contains the codes of a novel approach, **GAIN**, to aggregating knowledge for learning representations by graph convolutional neural networks. The **GAIN** architecture is developed to address multi-class road type classification problem inspired by [GraphSAGE](http://snap.stanford.edu/graphsage/).
 Road network graph datasets are generated from OpenStreeMap (OSMnx) and preprocessed according to the corresponding settings. Representation learning improves by application of a search mechanism in the local and the global neighborhood of a graph node.
-Anyone interested in using GAIN architecture, please cite the following [article](https://doi.org/10.1016/j.patcog.2021.108174)/[arXiv link](https://arxiv.org/abs/2107.07791):
+Anyone interested in using GAIN architecture, please cite the following [paper](https://arxiv.org/abs/2107.07791):
 
     @article {gharaee2021pr} {
       author = {Gharaee, Zahra and Kowshik, Shreyas and Stromann, Oliver and Felsberg, Michael},
